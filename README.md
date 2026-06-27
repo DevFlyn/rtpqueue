@@ -12,6 +12,12 @@
 </p>
 
 ---
+# RANKS
+* COPPER 1-3
+* IRON 1-3
+* GOLD 1-3
+* DIAMOND 1-3
+* NETHERITE 1-3
 
 ## Features
 
