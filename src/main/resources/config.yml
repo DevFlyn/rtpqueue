@@ -1,0 +1,35 @@
+world: plains # main world where you teleported with your opponent
+
+biomes:
+  - plains # 1st
+  - badlands # 2nd etc
+spawn:
+  world: spawn
+  x: 11.500
+  y: 12
+  z: 9.500
+
+rtp:
+  min-distance: 50 # lowest distance
+  max-distance: 500 # how far away you want to be away from other ppls
+  countdown-seconds: 3 # seconds till the match starts
+
+elo:
+  starting-elo: 400
+  win-gain: 25
+  loss-penalty: 20
+
+whitelist:
+  - /msg
+  - /tell
+  - /r
+
+rules:
+  - "&cRanked Match Rules:"
+  - "&7- Auto-rekit applies your selected kit."
+  - "&7- If no kit is selected, it falls back to last loaded or Kit 1."
+  - "&7- No Mace/Spear allowed."
+  - "&7- Max 8 Totems / 64 Fireworks."
+  - "&7- Max 1 Blast Protection piece." # WILL ALWAYS BE 1 BP PIECE REMEMBER!
+
+kit-slots: 5

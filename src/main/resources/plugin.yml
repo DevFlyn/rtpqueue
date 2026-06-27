@@ -1,0 +1,23 @@
+name: RTPQueue
+version: 1.69
+main: rtpqueue.RTPQueue
+api-version: 1.21
+author: Flynzlol
+description: A Ranked rtpqueue which is competitive
+website: https://flyndev.carrd.co/
+
+commands:
+  rtpqueue:
+    description: Open the ranked menu
+    aliases: [ranked, rq]
+  rtpadmin:
+    description: Admin commands for RTPQueue
+    aliases: [rqa]
+
+permissions:
+  rtpqueue.play:
+    description: Allows using the ranked queue
+    default: true
+  rtpqueue.admin:
+    description: Admin access
+    default: op
